@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:intro_app/login.dart';
 import 'package:intro_views_flutter/intro_views_flutter.dart';
 import 'package:intro_views_flutter/Models/page_view_model.dart';
 
@@ -88,7 +89,11 @@ class IntroPage extends StatelessWidget {
             IntroViewsFlutter(
               pages,
               onTapDoneButton: (){
-                Navigator.pop(context);
+                Navigator.push(context, MaterialPageRoute(
+                  builder: (context){
+                  return LoginPage();  
+                  }
+                ));
               },
               showSkipButton: false,
               doneText: Text('Login'),
