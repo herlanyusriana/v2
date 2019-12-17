@@ -11,16 +11,16 @@ class IntroPage extends StatelessWidget {
       title:  Container(),
       body: Column(
         children: <Widget>[
-          Text ("Hello :)"),
+          Text ("Hello"),
           Text(
-            "Everyone can do!"
+            "Introducing PPI APP"
           )
         ],
       ),
       mainImage: Image.asset(
-        'images/toga.png',
-        width: 200.0,
-        height: 200.0,
+        'images/book.png',
+        width: 285.0,
+        height: 285.0,
         alignment: Alignment.center,
       ),
       textStyle: TextStyle(color: Colors.black54)
@@ -35,7 +35,7 @@ class IntroPage extends StatelessWidget {
     title: Container(),
     body: Column(
       children: <Widget>[
-        Text('Berbagai fitur telah hadir di genggaman anda'),
+        Text('Semua dalam genggaman !'),
         Text('Berita, Kalender, Portal, DLL',
         style: TextStyle(
           color: Colors.black54,
@@ -45,7 +45,7 @@ class IntroPage extends StatelessWidget {
       ],
     ),
     mainImage: Image.asset(
-      'images/book.png',
+      'images/bus.png',
       width: 200.0,
       height: 200.0,
       alignment: Alignment.center,
@@ -61,7 +61,7 @@ class IntroPage extends StatelessWidget {
     title: Container(),
     body: Column(
       children: <Widget>[
-        Text('Semangat Ya!'),
+        Text('Thank you!'),
         Text('Once you stop learning, you start dying.',
         style: TextStyle(
           color: Colors.black54,
@@ -71,7 +71,7 @@ class IntroPage extends StatelessWidget {
       ],
     ),
     mainImage: Image.asset(
-      'images/einstein.png',
+      "images/pict.jpg",
       width: 200.0,
       height: 200.0,
       alignment: Alignment.center,
@@ -95,7 +95,7 @@ class IntroPage extends StatelessWidget {
                   }
                 ));
               },
-              showSkipButton: false,
+              showSkipButton: true,
               doneText: Text('Login'),
               pageButtonsColor: Colors.indigo,
               pageButtonTextStyles: new TextStyle(
