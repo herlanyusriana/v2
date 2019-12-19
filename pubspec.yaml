@@ -25,7 +25,7 @@ dependencies:
   cupertino_icons: ^0.1.2
   intro_views_flutter: ^2.8.0
   wave: ^0.0.8
-  flutter_cipher: ^0.0.3
+  flutter_des: ^1.1.0
   steel_crypt: ^1.5.1+2
   pointycastle: ^1.0.2
 
